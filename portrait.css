@@ -23,6 +23,8 @@
     position: absolute;
     -moz-border-radius: 0 0 100px 0;
     -webkit-border-radius: 0 0 100px 0;
+    top: -155px;
+    left: -100px;
 }
 .rightbang{
      width: 100px;
@@ -32,4 +34,6 @@
      position: absolute;
      -moz-border-radius: 0 0 0 100px;
      -webkit-border-radius: 0 0 0 100px;
+     top: -155px;
+     right: -95px;
 }
