@@ -4,6 +4,8 @@
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+/*
 .face {
   width: 300px;
   height: 300px;
@@ -14,17 +16,32 @@
   top: -135px;
   left: -147px;
 }
+*/
+
+.face {
+  width: 200px;
+  height: 230px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: -150px;
+  left: -100px;
+  box-shadow: 1px 1px 3px #888787;
+}
+
+
 
 .leftbang{
     width: 100px;
     height: 100px;
     background: black;
     border-radius: 0 0 100px 0;
+
     position: absolute;
     -moz-border-radius: 0 0 100px 0;
     -webkit-border-radius: 0 0 100px 0;
-    top: -155px;
-    left: -100px;
+    top: -130px;
+    left: -95px;
 }
 .rightbang{
      width: 100px;
@@ -34,6 +51,14 @@
      position: absolute;
      -moz-border-radius: 0 0 0 100px;
      -webkit-border-radius: 0 0 0 100px;
-     top: -155px;
+     top: -130px;
      right: -95px;
+}
+
+.semicircle {
+  width: 300px;
+  height: 150px; /* half of width*/
+  background: black;
+  border-radius:0px 0px 150px 150px;
+  background-color: red;
 }

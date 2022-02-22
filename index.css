@@ -49,3 +49,7 @@ h1 {
 .container .btn:hover {
   background-color: black;
 }
+
+.flex{
+  display: block;
+}
