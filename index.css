@@ -18,6 +18,17 @@ h1 {
 
 /* got this from w3 schoools...searched up how to make button on image */
 /* Container needed to position the button. Adjust the width as needed */
+
+.BigContainer{
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+
+}
+
 .container {
   position: relative;
   width: 25%;
