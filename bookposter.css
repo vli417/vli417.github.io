@@ -48,8 +48,12 @@ html, body {
   right: 0px;
   bottom: 0px;
 
-
 }
+
+
+
+
+
 
 
 
@@ -69,6 +73,10 @@ html, body {
   animation: my-animation 20s linear infinite;
 }
 
+#scroll-text:hover{
+  color:#0071b6;
+  opacity:1.0;
+}
 /* for Firefox */
 @-moz-keyframes my-animation {
   from {
@@ -136,7 +144,7 @@ html, body {
   right: 50px;
   text-decoration: blink;
   -webkit-animation-name: blinker;
-  -webkit-animation-duration: 1s;
+  -webkit-animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
   -webkit-animation-direction: alternate;
